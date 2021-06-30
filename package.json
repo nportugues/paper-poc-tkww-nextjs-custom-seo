@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev:ww": "APP_BRAND=ww PORT=3001 next dev",
+    "dev:tk": "APP_BRAND=tk PORT=3002 next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
