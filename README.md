@@ -5,11 +5,10 @@
 - Shared codebase, different routing
 
 ## Positives
-- Very close to how nextjs works.
+- Sticking to how nextjs works. Nothing not documented in the official docs.
 - Allows us for different SITE and SEO structures living inside the same codebase. 
-- next/link component still works as expected. Just make sure to pass in route name.
+- next/link component still works as expected.
 
 ## Negatives/Downsides
-- All inside /pages are hidden by default unless declared under seo/routes.
-- pages/ may look duplicated with this approach. 
+- All inside /pages must be hidden with the rewrites directive.
 - We surely want to have our seo/routes directory tested, as it's core business now.
